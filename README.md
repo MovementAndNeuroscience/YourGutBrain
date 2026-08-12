@@ -6,10 +6,12 @@ This repository contains:
 - figures
 - scripts
 
-##Paper & Preprint
-Link to preprint
+Paper&Preprint
 
-##Figures
-Figure 1:
-Figure 2:
-Figure 3:
+-Link to preprint
+
+Figures
+
+-Figure 1:
+-Figure 2:
+-Figure 3:
