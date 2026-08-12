@@ -134,20 +134,3 @@ Where raw data cannot be publicly distributed, processed data required to reprod
 
 ---
 
-## Citation
-
-If you use materials from this repository, please cite:
-
-**[Insert manuscript citation]**
-
-A repository-specific citation and DOI will be added here if available.
-
----
-
-## Contact
-
-For questions regarding the data, analysis code, or manuscript, please contact:
-
-**[Name]**
-**[Affiliation]**
-**[Contact information]**
