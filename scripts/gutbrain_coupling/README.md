@@ -192,14 +192,30 @@ The raw `.bdf` recordings themselves are not distributed with this repository.
 
 The gastric frequency band is determined individually for each participant and visit.
 
-The preprocessing pipeline reads a summary table containing at least the following variables:
+Gastric peak-frequency estimation, EGG channel selection, and quality control were performed using a **modified and adapted version of the EGG analysis pipeline developed by Wolpert, Rebollo, and Tallon-Baudry**.
+
+The resulting summary data contain:
 
 | Variable      | Description                                      |
 | ------------- | ------------------------------------------------ |
 | `Participant` | Participant ID                                   |
 | `Visit`       | Study visit                                      |
-| `Max_Freq`    | Participant-specific gastric peak frequency      |
+| `Max_Freq`    | Individual gastric peak frequency                |
 | `Max_Chan`    | EGG channel containing the selected gastric peak |
+
+The participant-specific gastric peak is subsequently used to define the EGG frequency band for the PAC analysis as:
+
+```matlab id="7e6k7v"
+egg_band = [max(0.005, f_peak - 0.015), ...
+            f_peak + 0.015];
+```
+
+Thus, gastric phase is derived from an individually defined frequency band centred on each participant's gastric peak.
+
+### EGG analysis reference
+
+Wolpert N, Rebollo I, Tallon-Baudry C. *Electrogastrography for psychophysiological research: Practical considerations, analysis pipeline, and normative data in a large sample.* Psychophysiology. 2020;57:e13599.
+
 
 The participant-specific gastric peak is used to define the EGG frequency band used in the PAC analysis.
 
