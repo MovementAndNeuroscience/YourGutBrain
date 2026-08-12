@@ -44,29 +44,6 @@ Where applicable, individual analysis directories contain additional documentati
 
 The `figures/` directory contains the figures associated with the manuscript.
 
----
-
-## Repository Structure
-
-```text
-YourGutBrain/
-│
-├── README.md
-│
-├── data/
-│   ├── EEG/
-│   ├── EGG/
-│   └── gut_brain_coupling/
-│
-├── scripts/
-│   ├── EEG/
-│   ├── EGG/
-│   └── gut_brain_coupling/
-│
-└── figures/
-```
-
-The exact contents and organization of individual analysis folders are described in their respective README files where applicable.
 
 ---
 
