@@ -113,28 +113,6 @@ The repository contains:
 
 Raw BioSemi `.bdf` recordings are **not included**.
 
-A suggested repository structure is:
-
-```text
-gastric-alpha-pac/
-│
-├── README.md
-├── LICENSE
-│
-├── src/
-│   └── rest_gastric_alpha_pac_pipeline.m
-│
-├── data/
-│   └── icafinal_rest/
-│       ├── icafinal_rest_visit1_PXXXX.mat
-│       ├── icafinal_rest_visit1_PXXXX.mat
-│       └── ...
-│
-└── results/
-    ├── participant_PAC/
-    └── group_PAC/
-```
-
 Participant numbers appearing in filenames correspond to study-specific participant IDs.
 
 ---
