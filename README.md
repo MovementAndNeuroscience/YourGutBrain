@@ -21,6 +21,7 @@ The repository contains participant-level data used in the analyses, including:
 * **EEG data** — preprocessed electrophysiological data used for the reported EEG analyses.
 * **EGG data** — electrogastrography data and derived measures of gastric activity.
 * **Gastric–brain coupling data** — data used to quantify coupling between gastric phase and EEG activity, including participant-specific gastric peak frequencies and phase–amplitude coupling measures.
+* Faecal SCFA - [Link to metabolomics repo]
 * **Cognitive performance data** — available upon reasonable request and following completion of an appropriate data-handling agreement.
 
 Please see the documentation within the relevant data directories for information on file organization, variable definitions, preprocessing, and participant/visit identifiers.
