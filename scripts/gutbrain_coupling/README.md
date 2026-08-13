@@ -558,7 +558,7 @@ Each participant receives an individual topographical plot showing the spatial d
 Example output filename:
 
 ```text
-PAC_topo_rest_visit1_P1001.png
+PAC_topo_rest_visit1_Pnumber.png
 ```
 
 ---
