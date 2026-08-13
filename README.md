@@ -62,7 +62,7 @@ The data and code in this repository accompany:
 
 ### Published article
 
-**[Insert link/DOI when available]**
+**[link/DOI when available]**
 
 If you use the data or analysis code from this repository, please cite the associated manuscript.
 
