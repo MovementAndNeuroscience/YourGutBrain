@@ -70,35 +70,7 @@ If you use the data or analysis code from this repository, please cite the assoc
 
 ## Figures
 
-### Figure 1 — [Figure title]
 
-**[Brief description of Figure 1.]**
-
-Relevant data and analysis scripts:
-
-* Data: `[insert path]`
-* Script: `[insert path]`
-* Figure: `[insert path]`
-
-### Figure 2 — [Figure title]
-
-**[Brief description of Figure 2.]**
-
-Relevant data and analysis scripts:
-
-* Data: `[insert path]`
-* Script: `[insert path]`
-* Figure: `[insert path]`
-
-### Figure 3 — [Figure title]
-
-**[Brief description of Figure 3.]**
-
-Relevant data and analysis scripts:
-
-* Data: `[insert path]`
-* Script: `[insert path]`
-* Figure: `[insert path]`
 
 ---
 
