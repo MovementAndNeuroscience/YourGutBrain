@@ -126,7 +126,7 @@ Participants and study visits are defined at the beginning of the analysis scrip
 For example:
 
 ```matlab
-participants = [1001, 1004, 1010, ...];
+participants = [, , , ...];
 visits = [1];
 ```
 
@@ -149,7 +149,7 @@ EEG_rest_visit<VISIT>_P<PARTICIPANT>.bdf
 For example:
 
 ```text
-EEG_rest_visit1_P1001.bdf
+EEG_rest_visit1_Pnumber.bdf
 ```
 
 Raw recordings can be located in multiple directories.
